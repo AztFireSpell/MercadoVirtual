@@ -6,18 +6,21 @@
     <title></title>
   </head>
   <body>
-    <form action="index.html" method="post">
+    <?php
+        require_once("encabezado.php");
+     ?>
+    <form action="Desde aqui" method="post">
       <div>
         <label for="name">Nombre:</label>
-        <input type="text" id="name">
+        <input type="text" id="name" name="user_name">
       </div>
       <div>
-        <label for="mail">Correo electronico</label>
-        <input type="text" id="mail">
+        <label for="mail">Email:</label>
+        <input type="text" id="mail" name="user_mail">
       </div>
       <div>
         <label for="msg">Mensaje:</label>
-        <textarea id="msg" ></textarea>
+        <textarea id="msg" name="user_message" ></textarea>
       </div>
       <div class="boton">
         <button type="submit">Enviar</button>

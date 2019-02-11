@@ -1,14 +1,13 @@
 form{
   margin: 0;
   width: 400px;
-
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
 }
 
 form div + div{
-  margin-top: 1em:
+  margin-top: 1em;
 }
 
 label{
@@ -38,5 +37,5 @@ textarea{
 
 .boton{
   padding-left: 90px;
-  
+  margin-left: .5em;
 }
