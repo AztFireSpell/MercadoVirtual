@@ -1,0 +1,9 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-image: url(3.jpg);
+  background-position: center;
+}

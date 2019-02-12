@@ -1,0 +1,66 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+body{
+  text-align: center;
+  background:url(3.jpg) #rgb(137, 90, 249);
+}
+
+
+section{
+  margin-top: 10em; /*Separacion para el margen de arriba*/
+  width: 100%;
+
+}
+section article{
+  background-color: rgba(223, 221, 33, 0.8);   /*Color de fondo al article*/
+  display: inline-block;     /**/
+  width: 80%;
+}
+
+section aside{
+  background-color: rgb(32, 209, 110); /*Pone color a la seccion aside*/
+  min-height: 444px;       /*Controla el tamaÃ±o del cuadro, aside dentro de la pagina*/
+  display: inline-block;   /*No tengo claro que hace*/
+  vertical-align: top;
+  width: 30%;
+}
+
+section img{
+  max-width: 100%; /*El maximo para el tamaÃ±o de todas las imagenes*/
+}
+
+
+article.galeria{
+  display: inline-block;
+  margin: 1em;
+  width: 30%;
+  color: rgba(50,50,50,.8);     /*El color, rgba, el a es utilizado para la transparecia*/
+  cursor: pointer;              /*Es utilizado para simular la mano que agarra, como si fuera un link*/
+}
+
+article.galeria:hover{
+  transform: rotate(6deg);  /*Utilizado para dar un giro lento a las imagenes*/
+  transition: 1s;           /*Es el tiempo que tarda en reaccionar*/
+}
+
+article.galeria:hover{
+  transform: scale(1.2);  /*Cuando el mouse se pone por encima de una imagen, esta incrementa su tamaÃ±o*/
+  opacity: 0.6;
+  transition:2s;
+}
+
+article.galeria img{
+  max-height: 200px;
+  border-radius: 10px;
+  max-width: 90%
+}
+
+p{
+  background-color: rgb(65, 212, 130);
+  font-size: 25pt;
+  color: rgb(0, 0, 0);
+}
