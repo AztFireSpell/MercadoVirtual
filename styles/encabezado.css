@@ -1,0 +1,39 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.Menu{
+  width: 960px;
+  margin: 15px auto;
+}
+
+.Menu_1{
+  width: 600px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Menu_2{
+  width: 300px;
+  margin: 15px auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+.Menu_1 li{
+  background: rgb(55, 179, 191);
+  border: 2px solid white;
+  padding: 0.2em;
+  display: inline-block;
+  position: relative;
+}
+
+.Menu_2 li{
+  background: rgb(55, 179, 191);
+  border: 2px solid white;
+  padding: 0.2em;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
