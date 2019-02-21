@@ -6,6 +6,10 @@
     <title></title>
   </head>
   <body>
+    
+    <?php
+        require_once("sections/encabezado.php");
+     ?>
 
 
 <section id="gal">

@@ -5,8 +5,8 @@
 }
 
 body{
+  background-image: url(../img/2.jpg);
   text-align: center;
-  background:url(3.jpg) #rgb(137, 90, 249);
 }
 
 

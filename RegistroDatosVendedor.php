@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/Registrovendedor.css">
     <title></title>
   </head>
   <body>

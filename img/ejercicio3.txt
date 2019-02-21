@@ -1,0 +1,43 @@
+Se tiene la base de datos de una empresa de bienes raíces y de la cual se quiere obtener cierta información. Las tablas que la definen son las siguientes:
+
+Tablas: 
+ARRENDATARIO(id_arr,nombre,ap_pat,ap_mat
+ADEUDA(id, id_casa, deuda)
+DUEÑO(id_due, nombre, apellido, correo, teléfono)
+CASA(id_casa, id_due,calle, no, colonia)
+
+Y los valores para cada tabla son:
+
+insert into ARRENDATARIOS values(11,'benito','juarez','garcía')
+insert into ARRENDATARIOS values(12,'luis','donaldo','colosio')
+insert into ARRENDATARIOS values(13,'porfirio','diaz','garcia')
+insert into ARRENDATARIOS values(14,'josefa','ortiz','de dominguez')
+insert into ARRENDATARIOS values(15,'Juana','De Asbaje','Saavedra')
+
+insert into ADEUDA values(15, 1001,23000)
+insert into ADEUDA values(14, 1002,4000)
+insert into ADEUDA values(13, 1002,0)
+insert into ADEUDA values(12, 1002,7500)
+insert into ADEUDA values(11, 1003,1500)
+insert into ADEUDA values(10, 1004,2300)
+
+insert into DUEÑO values(12,'roberto','mendoza','roberto@yahoo', 2101010)
+insert into DUEÑO values(14,'mauricio','camacho','mch@yahoo',2909090)
+insert into DUEÑO values(15,'valeria','arzamendi','andy09@yahoo',901620)
+insert into DUEÑO values(13,'camila','albarran','bren12@gmail',1232323)
+insert into DUEÑO values(11,'gregorio','sandoval','goyo@gmail',2101698)
+
+insert into CASA values(1001,11,'gomez farias',325,'alameda')
+insert into CASA values(1002,13,'ignacio rayon',128,'centro')
+insert into CASA values(1003,15,'ignacio allende',37,'universidad')
+insert into CASA values(1004,12,'pinos',102,'casa blanca')
+insert into CASA values(1005,13,'abedules',101,'sauces')
+
+Resuelve las siguientes preguntas:
+1. ¿Quiénes están rentando en abedules 101?
+2. ¿Cuánto le deben a Mauricio?
+3. ¿Cuál es la deuda total para cada dueño?
+4. Lista a todas las personas de la BD (dueños y arrendatarios)
+5. Indica el nombre de los dueños que tienen más de una casa
+6. Indicar el promedio, suma, máximo, mínimo de las deudas.
+

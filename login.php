@@ -20,7 +20,7 @@
           $pass= $_POST["password"];
           $bandera = $obj->validar($nom,$pass);
           if ($bandera==true) {
-            header("Location: admin/index.php");
+            header("Location: index.php");
           }else {
             echo "<p>Revisar usuario y contraseña</p>";
           }

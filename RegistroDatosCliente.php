@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/Registroclientes.css">
     <title></title>
   </head>
   <body>
@@ -19,10 +19,16 @@
          <input type="text" maxlength="20" placeholder="Ingrese su cuenta de banco">
          <input type="text" maxlength="20" placeholder="Ingrese su telefono">
          <input type="text" maxlength="20" placeholder="Ingrese su correo electronico">
-         <input type="checkbox" />Acepto terminos y condiciones
+         <label for="checkbox1">Acepto Terminos y condiciones</label>
+         <input type="checkbox" name="checkbox" id="checkbox1">
+
          <button type="button">Registrarse</<button>
        </form>
      </div>
 
   </body>
+
+  <footer>
+      <p>Derechos reservados</p>
+  </footer>
 </html>

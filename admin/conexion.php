@@ -21,7 +21,7 @@
 
     public function ejecutar_sentencia(){
       $this->abrir_conexion();
-      $this->conexion->query($this->$sentencia);
+      $this->conexion->query($this->sentencia);
       $this->cerrar_conexion();
     } // IDEA: Esto es solo para insertar, eliminar o modificar.
 

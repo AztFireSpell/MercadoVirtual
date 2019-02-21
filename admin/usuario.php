@@ -10,5 +10,17 @@
           return false;
         }
       }
+
+      public function alta($nombre,$pass,$tipo){
+          $this->sentencia="INSERT INTO usuario VALUES(null,'$nombre','$pass','$tipo')";
+          $this->ejecutar_sentencia();
+          echo "<h2>Usuario Agregado</h2>";
+      }
+
+      public function consulta(){
+        $this->sentencia= "SELECT * FROM usuario";
+        return $this->obtener_sentencia();
+      }
+
   }
  ?>
