@@ -14,5 +14,16 @@
         // IDEA: diagramas de caso de uso, avanze
 
      ?>
+
+     <slider>
+       <slide><p>Imagen1</p></slide>
+       <slide><p>Imagen2</p></slide>
+       <slide><p>Imagen3</p></slide>
+       <slide><p>Imagen4</p></slide>
+     </slider>
+
   </body>
+    <?php
+      require_once("sections/pie.php");
+     ?>
 </html>

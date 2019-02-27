@@ -11,18 +11,16 @@
      ?>
      <br>
      <div class="In_se">
-       <form class="In_ses" action="index.html" method="post">
-         <h1>CREAR CUENTA CLIENTE</h1>
-         <input type="text" maxlength="20" placeholder="Ingrese su nombre">
-         <input type="text" maxlength="20" placeholder="Ingrese su apellido paterno">
-         <input type="text" maxlength="20" placeholder="Ingrese su apellido materno">
-         <input type="text" maxlength="20" placeholder="Ingrese su cuenta de banco">
-         <input type="text" maxlength="20" placeholder="Ingrese su telefono">
-         <input type="text" maxlength="20" placeholder="Ingrese su correo electronico">
-         <label for="checkbox1">Acepto Terminos y condiciones</label>
-         <input type="checkbox" name="checkbox" id="checkbox1">
 
-         <button type="button">Registrarse</<button>
+       <form class="In_ses" action="" method="post">
+         <h1>CREAR CUENTA CLIENTE</h1>
+         <input type="text" name="nombre" maxlength="20" placeholder="Ingrese su nombre">
+         <input type="text" name="ap_pat" maxlength="20" placeholder="Ingrese su apellido paterno">
+         <input type="text" name="ap_mat" maxlength="20" placeholder="Ingrese su apellido materno">
+         <input type="text" name="cuenta" maxlength="20" placeholder="Ingrese su cuenta de banco">
+         <input type="text" name="telefono" maxlength="20" placeholder="Ingrese su telefono">
+         <input type="text" name="email" maxlength="20" placeholder="Ingrese su correo electronico">
+         <input type="submit" name="guardar" value="Guardar">
        </form>
      </div>
 

@@ -1,0 +1,8 @@
+footer{          
+  background-color: rgb( 13, 200, 218);
+  box-sizing: border-box;
+  font-weight: bold;
+  color: #ddd;
+  padding: 2em;
+  width: 100%;
+}
