@@ -22,5 +22,14 @@
         return $this->obtener_sentencia();
       }
 
+      public function consulta_pro(){
+        $this->sentencia= "SELECT * FROM producto";
+        return $this->obtener_sentencia();
+      }
+
+      public function consulta_ven(){
+        $this->sentencia= "SELECT * FROM vendedores ";
+        return $this->obtener_sentencia();
+      }
   }
  ?>

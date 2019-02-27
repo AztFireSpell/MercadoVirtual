@@ -42,13 +42,3 @@
   display:inline-block;
   position: relative;
 }
-
-footer{         /*Modifica la barra de contacto, de hasta abajo*/
-    background-color: rgb( 13, 200, 218);
-    box-sizing: border-box;
-    font-weight: bold;
-    color: #ddd;
-    padding: 2em;
-    width: 100%;
-
-}

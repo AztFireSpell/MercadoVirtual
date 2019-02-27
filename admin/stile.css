@@ -1,0 +1,22 @@
+table{
+  text-align: center;
+  width: 100%;
+}
+
+table td{
+    color: black;
+}
+
+table th{
+    background-color: rgb(242, 187, 47);
+}
+
+table td,th{
+  font-size: 1.2em;
+  padding: 0.2em;
+}
+
+
+table tr:nth-child(even){
+  background-color: rgb(122, 21, 186);
+}
