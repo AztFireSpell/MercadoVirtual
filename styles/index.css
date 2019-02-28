@@ -12,6 +12,7 @@ body{
 }
 
 slider{
+  margin: 40px 400px;
   display: block;
   width: 500px;
   height: 400px;
