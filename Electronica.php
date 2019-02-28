@@ -18,7 +18,7 @@
         <thead>
         <tr>
           <th>Nombre</th>
-          <th>descripcion</th>
+          <th>Descripcion</th>
           <th>Precio</th>
           <th>Imagen</th>
         </tr>

@@ -13,7 +13,7 @@
  $resultado = $conexion ->query($query);
 
  if ($resultado) {
-   //header("Location: ../index.php");
+   ("Location: ../index.php");
  }else {
    echo "No se ha guardado";
  }

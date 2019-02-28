@@ -23,6 +23,5 @@
          <input type="submit" name="" value="Aceptar"><br><br>
        </form>
      </div>
-
   </body>
 </html>

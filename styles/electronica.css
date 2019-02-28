@@ -12,11 +12,11 @@ table{
 }
 
 table td{
-    color: black;
+    color: rgb(158, 150, 249);
 }
 
 table th{
-    background-color: rgb(242, 187, 47);
+    background-color: rgb(98, 96, 91);
 }
 
 table td,th{
@@ -26,5 +26,9 @@ table td,th{
 
 
 table tr:nth-child(even){
-  background-color: rgb(122, 21, 186);
+  background-color: rgba(69, 66, 56,.8);
+}
+
+table tr:nth-child(odd){
+  background-color: rgba(52, 54, 62, 0.8);
 }

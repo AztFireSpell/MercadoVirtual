@@ -1,11 +1,22 @@
 footer{
   background-color: rgb( 13, 200, 218);
   bottom: 0;
-  text-align: center;
   font-weight: bold;
   color: #ddd;
   padding: 2em;
   width: 95%;
   height: 10px;
   position: absolute;
+}
+
+footer li{
+  text-decoration: none;
+  display: inline-block;
+  list-style: none;
+  position: relative;
+}
+
+footer li a{
+  text-decoration: none;
+  color: black;
 }
