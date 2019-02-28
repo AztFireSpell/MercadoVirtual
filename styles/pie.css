@@ -1,11 +1,11 @@
 footer{
   background-color: rgb( 13, 200, 218);
-  box-sizing: border-box;
   bottom: 0;
+  text-align: center;
   font-weight: bold;
   color: #ddd;
   padding: 2em;
-  width: 100%;
-  height: 12%;
+  width: 95%;
+  height: 10px;
   position: absolute;
 }

@@ -9,12 +9,13 @@
         <li><a href="Herramientas.php">Herramientas</a></li>
         <li><a href="Moda.php">Moda</a></li>
         <li><a href="Oscio.php">Ocio</a></li>
+        <li><a href="registrarproductos.php">Registrar produtos</a></li>
       </ul>
     </div>
     <div class="Menu_2">
       <ul>
-        <li><a href="Iniciarsesion.php">Iniciar Sesion</a><img border="0" height="30" width="30" src="icons/iniciar-sesion.png" alt=""> </li>
-        <li><a href="SeleccionaUsuario.php">Registrate</a></li>
+        <li><a href="Iniciarsesion.php">Iniciar Sesion</a><img border="0" height="25"  src="img/login.png" alt=""> </li>
+        <li><a href="RegistroDatosVendedor.php">Registrate</a> <img border="0" height="25" src="img/register.png" alt=""> </li>
       </ul>
     </div>
   </nav>
