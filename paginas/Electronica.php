@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="styles/electronica.css">
+    <link rel="stylesheet" href="../styles/electronica.css">
     <title></title>
   </head>
   <body>
@@ -21,7 +21,7 @@
         </thead>
       <tbody>
           <?php
-                  include("admin/conexion2.php");
+                  include("../admin/conexion2.php");
                   $query="SELECT nombre,descripcion,precio,imagen FROM producto where id_categoria=1";
                   $resultado=$conexion->query($query);
                   while ($row = $resultado->fetch_assoc()) {

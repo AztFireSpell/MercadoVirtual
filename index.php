@@ -10,6 +10,7 @@
     <body background="img/1.jpg">
     <?php
         require_once("sections/encabezado.php");
+        require_once("sections/pie.php");
         // IDEA: Pasar modelo entidad relacion a la base de datos (mysql) , avanzarle a los manuales de usuario
         // IDEA: diagramas de caso de uso, avanze
 
@@ -22,8 +23,14 @@
        <slide><p>Imagen4</p></slide>
      </slider>
 
+<div class="">
+  <article class="Mensaje1">
+    <p>Hola</p>
+  </article>
+
+</div>
+
+
+
   </body>
-    <?php
-      require_once("sections/pie.php");
-     ?>
 </html>

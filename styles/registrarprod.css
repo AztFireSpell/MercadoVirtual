@@ -4,3 +4,32 @@ body{
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
+.fom{
+  background-color: rgba(29, 77, 88, 0.77);
+  width: 550px;
+}
+
+.fom input{
+  height: 30px;
+  width: 150px;
+  color rgb(7, 8, 8);
+}
+
+.imagen input{
+  height: 30px;
+  width: 270px;
+  color: white;
+}
+
+
+.fom label{
+  margin: 100px;
+  font-size: 24px;
+  color: white;
+}
+
+.fom option{
+  height: 40px;
+  width: 150px;
+}

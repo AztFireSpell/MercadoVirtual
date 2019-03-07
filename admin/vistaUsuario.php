@@ -21,8 +21,19 @@
       if(isset($_POST["guardar"])) {
         $obj -> alta($_POST["nombre"],$_POST["pass"],$_POST["tipo"]);
       }
-      $res=$obj->consulta();
-   ?>
+      if (isset($_POST["eliminar"])) {
+        //$obj->eliminar($_POST["id"]);
+
+        $res=$obj->consulta();
+        ?>
+        <script type="text/javascript">
+          var valor = confirm("¿Deseas eliminar al usuario?");
+          if (valor==true) {
+            $obj->eliminar($_POST["id"]);
+          }
+        </script>
+      }
+
 
    <table>
      <tr>
@@ -38,6 +49,12 @@
                 echo "<td>".$fila["nombre"]."</td>";
                 echo "<td>*************</td>";
                 echo "<td>".$fila["tipo"]."</td>";
+                echo "<td>
+                <form action ='' method=''>
+                <input type='hidden' value='".$fila["id"]."' name='id'>
+                <input type='submit' name='eliminar' value='Eliminar'>
+                </form>
+                </td>";
               echo "</tr>";
             }
       ?>

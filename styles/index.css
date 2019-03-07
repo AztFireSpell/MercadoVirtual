@@ -80,3 +80,13 @@ slide p{
     30.0001% { left: -100%; width: 0%;}
     100% {left: 100%; width: 0%;}
 }
+
+.Mensaje1{
+  background-color: rgb( 13, 200, 218);
+  font-weight: bold;
+  color: #ddd;
+  padding: 2em;
+  width: 95%;
+  height: 10px;
+  position: absolute;
+}

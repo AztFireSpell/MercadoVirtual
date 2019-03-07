@@ -13,13 +13,13 @@
      <div class="In_se">
        <form class="In_ses" action="admin/guardarvendedores.php" method="post" enctype="multipart/form-data">
          <h1>CREAR CUENTA VENDEDOR</h1>
-         <input type="text" name="nombre" placeholder="Ingrese su nombre">
-         <input type="text" name="apppa"  placeholder="Ingrese su apellido paterno">
-         <input type="text" name="appma"  placeholder="Ingrese su apellido materno">
-         <input type="text" name="cuentabanco"  placeholder="Ingrese su cuenta de banco">
-         <input type="text" name="telefono"  placeholder="Ingrese su telefono">
-         <input type="email" name="correo"  placeholder="Ingrese su correo electronico">
-         <input type="password" name="contra" placeholder="Ingrese su contraseña" value="">
+         <input type="text" name="nombre" maxlength="30" placeholder="Ingrese su nombre">
+         <input type="text" name="apppa" maxlength="30"  placeholder="Ingrese su apellido paterno">
+         <input type="text" name="appma" maxlength="30"  placeholder="Ingrese su apellido materno">
+         <input type="text" name="cuentabanco" maxlength="11"  placeholder="Ingrese su cuenta de banco">
+         <input type="text" name="telefono" maxlength="11"  placeholder="Ingrese su telefono">
+         <input type="email" name="correo" maxlength="30"  placeholder="Ingrese su correo electronico">
+         <input type="password" name="contra" maxlength="11" placeholder="Ingrese su contraseña" value="">
          <input type="submit" name="" value="Aceptar"><br><br>
        </form>
      </div>

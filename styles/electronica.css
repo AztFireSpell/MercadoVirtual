@@ -7,8 +7,9 @@ body{
 }
 
 table{
+  margin: auto;
   text-align: center;
-  width: 100%;
+  width: 50%;
 }
 
 table td{
@@ -20,15 +21,15 @@ table th{
 }
 
 table td,th{
-  font-size: 1.2em;
+  font-size: 1.5em;
   padding: 0.2em;
 }
 
 
 table tr:nth-child(even){
-  background-color: rgba(69, 66, 56,.8);
+  background-color: rgba(69, 66, 56,.9);
 }
 
 table tr:nth-child(odd){
-  background-color: rgba(52, 54, 62, 0.8);
+  background-color: rgba(52, 54, 62, 0.9);
 }
